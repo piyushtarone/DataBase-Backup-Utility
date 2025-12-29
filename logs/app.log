@@ -1,0 +1,16 @@
+{"level":"info","message":"Starting database backup","timestamp":"2025-12-28T10:57:48.714Z"}
+{"level":"info","message":"Starting database backup","timestamp":"2025-12-28T11:02:34.416Z"}
+{"error":"mysqldump: [Warning] Using a password on the command line interface can be insecure.\r\nmysqldump: Got error: 1049: Unknown database 'test_db' when selecting the database\r\n","level":"error","message":"Backup failed","timestamp":"2025-12-28T11:02:34.475Z"}
+{"level":"info","message":"Starting database backup","timestamp":"2025-12-28T11:05:52.100Z"}
+{"file":"C:\\Users\\piyus\\OneDrive\\Documents\\Personal Ideas\\DataBase Backup Utility\\db-backup-cli\\backups\\test_db_2025-12-28T11-05-52-097Z.sql.gz","level":"info","message":"Backup completed","timestamp":"2025-12-28T11:05:52.178Z"}
+{"level":"info","message":"Starting restore","timestamp":"2025-12-28T11:16:34.755Z"}
+{"level":"info","message":"Backup file extracted","sqlFile":"backups/test_db_2025-12-28T11-05-52-097Z.sql","timestamp":"2025-12-28T11:20:18.845Z"}
+{"level":"info","message":"Starting restore","timestamp":"2025-12-28T11:20:18.847Z"}
+{"level":"info","message":"Restore completed successfully","timestamp":"2025-12-28T11:20:18.908Z"}
+{"level":"info","message":"Starting database backup","timestamp":"2025-12-28T11:28:27.665Z"}
+{"file":"C:\\Users\\piyus\\OneDrive\\Documents\\Personal Ideas\\DataBase Backup Utility\\db-backup-cli\\backups\\db_backup_demo_2025-12-28T11-28-27-662Z.sql.gz","level":"info","message":"Backup completed","timestamp":"2025-12-28T11:28:27.734Z"}
+{"error":{},"level":"error","message":"Restore failed","timestamp":"2025-12-28T11:30:25.339Z"}
+{"error":{},"level":"error","message":"Restore failed","timestamp":"2025-12-28T11:31:21.695Z"}
+{"level":"info","message":"Backup file extracted","sqlFile":"backups/db_backup_demo_2025-12-28T11-28-27-662Z.sql","timestamp":"2025-12-28T11:31:57.901Z"}
+{"level":"info","message":"Starting restore","timestamp":"2025-12-28T11:31:57.902Z"}
+{"level":"info","message":"Restore completed successfully","timestamp":"2025-12-28T11:31:57.961Z"}
