@@ -4,8 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --loader ts-node/esm src/index.ts"
+    "test": "jest --runInBand",
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration"
   },
   "keywords": [],
   "author": "",
@@ -13,14 +15,20 @@
   "description": "",
   "dependencies": {
     "commander": "^14.0.2",
-    "dotenv": "^17.2.3",
     "fs-extra": "^11.3.3",
     "mysql": "^2.18.1",
+    "mysql2": "^3.16.0",
+    "pg": "^8.16.3",
     "winston": "^3.19.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^25.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.8",
+    "@types/pg": "^8.16.0",
+    "dotenv": "^17.2.3",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

@@ -1,0 +1,12 @@
+// // tests/integration/backup.mysql.test.js
+// const { runBackup } = require('../../src/backup');
+
+// test('MySQL backup creates file', async () => {
+//   const result = await runBackup({
+//     db: 'mysql',
+//     database: 'test_db',
+//     output: './test-backups'
+//   });
+
+//   expect(result.success).toBe(true);
+// });
